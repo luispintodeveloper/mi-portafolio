@@ -9,7 +9,7 @@ Este es un portafolio creado con HTML, CSS y Javascript. Usando la metodología 
 * [Portafolio](https://midominio.es/)
 
 ## Ver ejemplo en vivo
-- [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
+- [https://luispintodeveloper.github.io/mi-portafolio/](https://luispintodeveloper.github.io/mi-portafolio/)
 
 ## Instalación
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
