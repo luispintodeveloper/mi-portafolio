@@ -2,7 +2,7 @@
 
 Este es un portafolio creado con HTML, CSS, Javascript y usando la metodología BEM.
 
-## Autor -
+## Autor
 **Luis Pinto**
 
 * [LinkedInd](https://www.linkedin.com/in/luispintodeveloper/)
