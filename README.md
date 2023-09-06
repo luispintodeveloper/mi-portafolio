@@ -1,6 +1,6 @@
 ## Description
 
-Este es un portafolio creado con HTML, CSS, Javascript y usando la metodología BEM.
+Este es un portafolio creado con HTML, CSS y Javascript. Usando la metodología BEM.
 
 ## Autor
 **Luis Pinto**
