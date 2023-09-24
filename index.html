@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Icon -->
+    <link rel="icon" href="img/LP.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+
+
+    <title>Luis Pinto | Developer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="header__logo">Luis Pinto</a>
+      <a href="#about-me" class="header__about-me">About me</a>
+      <a href="#portfolio" class="header__portafolio">Portfolio</a>
+    </header>
+
+    <!-- Content -->
+    <main class="main">
+      <section class="main__presentation" id="home">
+        <h1 class="main__presentation-title">Luis Pinto</h1>
+        <div class="main__presentation-webtechnologies">
+          <img
+            src="img/icons-technologies/icons-technologies-main-presentation/html5.png"
+            alt="icono html"
+            class="webtechnologies__img"
+          />
+          <img
+            src="img/icons-technologies/icons-technologies-main-presentation/css5.png"
+            alt="icono css"
+            class="webtechnologies__img"
+          />
+          <img
+            src="img/icons-technologies/icons-technologies-main-presentation/javascript.png"
+            alt="icono javascript"
+            class="webtechnologies__img"
+          />
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="main__projects" id="portfolio">
+        <!-- Left -->
+        <div class="main__projectsweb-container">
+          <p class="main__projectsweb-title">Projects</p>
+          <div class="projectsweb-container__img-container">
+          </div>
+        </div>
+        <!-- Right -->
+        <div class="main__projectsskills-container">
+          <p class="coding-skills__title">Technologies that I use</p>
+
+          <div class="coding-skills__all-images-container">
+            <!-- 1 -->
+            <div class="coding-skills__img-container">
+              <img
+                src="img/html-5.png"
+                alt="logo html"
+                class="coding-skills__html"
+              />
+              <p class="coding__skills-img-text">HTML</p>
+            </div>
+
+            <!-- 2 -->
+            <div class="coding-skills__img-container">
+              <img
+                src="img/css-3.png"
+                alt="logo css"
+                class="coding-skills__css"
+              />
+              <p class="coding__skills-img-text">CSS</p>
+            </div>
+
+            <!-- 3 -->
+            <div class="coding-skills__img-container">
+              <img
+                src="img/icons-technologies/JAVASCRIPT-ALT.png"
+                alt="logo js"
+                class="coding-skills__js"
+              />
+              <p class="coding__skills-img-text">JAVASCRIPT</p>
+            </div>
+          </div>
+
+          <p class="design-skills__title">Design skills</p>
+
+          <div class="design-skills__all-images-container">
+            <!-- 1 -->
+            <div class="design-skills__img-container">
+              <img
+                src="img/ilustrador.png"
+                alt="logo adobe illustrator"
+                class="design-skills__ai"
+              />
+              <p class="img__container-text">Adobe Illustrator</p>
+            </div>
+
+            <!-- 2 -->
+            <div class="design-skills__img-container">
+              <img
+                src="img/photoshop.png"
+                alt="logo adobe photoshop"
+                class="design-skills__ap"
+              />
+              <p class="img__container-text">Adobe Photoshop</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <div class="main__aboutme-gridcontainer" id="about-me">
+        <section class="main__aboutme">
+          <h3 class="main__aboutme-title">A little about me</h3>
+          <p class="main__aboutme-text">
+            Self-taught frontend developer specialized in turning ideas into aesthetic and functional web pages.<br /><br />
+            I am pleased to collaborate closely with projects and endeavors. My work is oriented towards online objectives, with brand identity and detailed layout. I solve problems, making sure I understand my clients' vision and mission.
+          </p>
+        </section>
+
+        <!-- <section class="main__aboutme-images">  
+          <img src="" alt="imagenes personales" class="main__abountme-img-1" />
+          <img src="" alt="imagenes personales" class="main__abountme-img-2" />
+          <img src="" alt="imagenes personales" class="main__abountme-img-3" />
+        </section> -->
+      </div>
+
+      <!-- Form -->
+      <div class="main__form" id="contact-me">
+        <form action="https://formsubmit.co/2cfc42b1342f6c1e070d22c2968c4aee" class="main__form-container" method="post">
+          <p class="main__form-title">Contact me!</p>
+          <input type="text" name="name" placeholder="Enter your name" class="main__form-name">
+          <input type="email" name="email" placeholder="Enter your email" class="main__form-email">
+          <textarea name="mesage" placeholder="What can I serve you with?" cols="" rows="" class="main__form-message"></textarea> 
+          <input type="submit" name="enviar" value="Send mail" class="main__form-submit">
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer__socialmedia-container">
+        <p class="footer__socialmedia-title">Social Media</p>
+        <a href="https://github.com/luispintodeveloper" class="footer__github-link" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/luispintodeveloper/" class="footer__linkedin-link" target="_blank">LinkedIn</a>
+      </div>
+
+      <div class="footer__legends-container">
+        <a href="#home" class="footer__legends-links">Home</a>
+        <a href="#portfolio" class="footer__legends-links">Portfolio</a>
+        <a href="#about-me" class="footer__legends-links">About Me</a>
+        <a href="#contact-me" class="footer__legends-links">Contact Me</a>
+      </div>
+      
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
